@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables file
+.env

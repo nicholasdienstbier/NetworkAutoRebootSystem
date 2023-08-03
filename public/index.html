@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Log</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<body>
+  <header>
+    <h1>Network Auto Restart System (NARS)</h1>
+  </header>
+
+  <button id="toggleLoopButton">Stop Loop</button>
+
+
+
+  <section class="status">
+    <h2>Status</h2>
+    <div id="currentTime"></div>
+    <div id="internetStatus"></div>
+    <div id="powerStatus"></div>
+  </section>
+
+  <section class="log">
+    <h2>Event Log</h2>
+    <ul id="eventList"></ul>
+
+    <table id="eventTable">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+                <!-- <th>Action</th> -->
+            </tr>
+        </thead>
+        <tbody id="eventLog"></tbody>
+    </table>
+  </section>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
